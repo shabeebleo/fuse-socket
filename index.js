@@ -1,6 +1,6 @@
-const io = require("socket.io")(8800, {
+const io = require("socket.io")('https://socket-fig9.onrender.com', {
   cors: {
-    origin: "https://master.d324cc897mcqpi.amplifyapp.com",
+    origin: "https://social-media-9ekp.onrender.com",
   },
 });
 
